@@ -1,7 +1,7 @@
 #include <iostream>
 #include <fstream>
 using namespace std;
-std::ifstream infile("IntegerArray1.txt");
+std::ifstream infile("IntegerArray.txt");
 
 long long int MSI(int *a, int sizea, int *b, int sizeb, int *c, int &sizec){
 	sizec = sizea+sizeb;
@@ -87,8 +87,8 @@ int main(){
 //	int input[10];
 //	int inputsize = 10;	
 
-	int input[10000];
-	int inputsize = 10000;
+	int input[100000];
+	int inputsize = 100000;
 //*/
 	int loadindex = 0;
 	while (infile >> in){
